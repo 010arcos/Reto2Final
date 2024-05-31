@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: linear-gradient(to bottom, #0E0713, #4543CC);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reto2javafx.JugadorController">
+   <children>
+      <Label layoutX="36.0" layoutY="36.0" prefHeight="43.0" prefWidth="222.0" text="𝐁𝐄𝐍𝐈𝐃𝐎𝐑𝐌" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="62.0" prefHeight="34.0" prefWidth="169.0" text="𝘾𝙃𝙀𝙎𝙎 𝙊𝙋𝙀𝙉" textFill="#41e4df">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblJugadoresB" layoutX="55.0" layoutY="172.0" onMouseClicked="#seleccionarJugadorB" prefHeight="483.0" prefWidth="918.0" style="-fx-border-width: 5; -fx-border-color: linear-gradient(to top, #FF45CC, #4543CC);">
+         <columns>
+            <TableColumn fx:id="rankingIColumn" prefWidth="81.0" text="Puesto" />
+            <TableColumn fx:id="nombreColumn" prefWidth="276.0" text="Nombre" />
+            <TableColumn fx:id="fideColumn" prefWidth="70.0" text="FIDE" />
+            <TableColumn fx:id="fideIDColumn" prefWidth="89.0" text="fideID" />
+            <TableColumn fx:id="tipoTorneoColumn" minWidth="0.0" prefWidth="55.0" text="Tipo " />
+            <TableColumn fx:id="federacionColumn" prefWidth="99.0" text="Fed" />
+            <TableColumn fx:id="hotelColumn" prefWidth="50.0" text="H" />
+            <TableColumn fx:id="cvColumn" prefWidth="59.0" text="CV" />
+            <TableColumn fx:id="descalificadoColumn" prefWidth="125.0" text="Descalificado" />
+         </columns>
+      </TableView>
+
+
+
+      <Label fx:id="labTitulo" layoutX="433.0" layoutY="96.0" text="Jugadores" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="BtnEliminar" layoutX="55.0" layoutY="664.0" mnemonicParsing="false" onAction="#eliminarJugador" prefHeight="34.0" prefWidth="295.0" style="-fx-background-radius: 15; -fx-background-color: linear-gradient(to top, #BF7BFF, #FF52DA);" text="Eliminar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnVolver" layoutX="36.0" layoutY="733.0" mnemonicParsing="false" onAction="#volverBVistaB" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: linear-gradient(to top, #BF7BFF, #FF52DA);" text="Volver" textFill="WHITE" />
+      <TextField fx:id="txtBuscar" layoutX="55.0" layoutY="136.0" prefHeight="26.0" prefWidth="134.0" promptText="Buscar por fide ID" />
+      <Button fx:id="btnModificar" layoutX="367.0" layoutY="664.0" mnemonicParsing="false" onAction="#modificarJugador" prefHeight="34.0" prefWidth="295.0" style="-fx-background-radius: 15; -fx-background-color: linear-gradient(to top, #BF7BFF, #FF52DA);" text="Modificar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBuscar" layoutX="192.0" layoutY="136.0" mnemonicParsing="false" onAction="#buscarPorFideID" prefHeight="26.0" prefWidth="28.0" text="🔎" />
+      <Button fx:id="btnOptar" layoutX="679.0" layoutY="664.0" mnemonicParsing="false" onAction="#btnOptarClicked" prefHeight="34.0" prefWidth="295.0" style="-fx-background-radius: 15; -fx-background-color: linear-gradient(to top, #BF7BFF, #FF52DA);" text="Premios optados" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLimpiarTabla" layoutX="220.0" layoutY="136.0" mnemonicParsing="false" onAction="#mostrarTodosLosJugadores" prefHeight="26.0" prefWidth="28.0" text="⭮" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="858.0" prefWidth="1203.0" style="-fx-background-color: linear-gradient(to bottom, #0E0713, #4543CC);" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reto2javafx.PremiosGanadosController">
+   <children>
+      <Label layoutX="36.0" layoutY="36.0" prefHeight="43.0" prefWidth="222.0" text="𝐁𝐄𝐍𝐈𝐃𝐎𝐑𝐌" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="62.0" prefHeight="34.0" prefWidth="169.0" text="𝘾𝙃𝙀𝙎𝙎 𝙊𝙋𝙀𝙉" textFill="#41e4df">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblClasificacionGeneralB" layoutX="14.0" layoutY="228.0" prefHeight="331.0" prefWidth="344.0" style="-fx-border-width: 5; -fx-border-color: linear-gradient(to top, #FF45CC, #4543CC);">
+        <columns>
+           <TableColumn fx:id="puestoClmGeneralB" prefWidth="56.0" text="Puesto" />
+            <TableColumn fx:id="nombreClmGeneralB" prefWidth="183.0" text="Nombre" />
+            <TableColumn fx:id="importeClmGeneralB" prefWidth="86.0" text="Importe" />
+        </columns>
+      </TableView>
+      <Label layoutX="432.0" layoutY="104.0" text="GANADORES DEL OPEN  B" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="138.0" layoutY="186.0" text="General" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView id="tblCVB" fx:id="tblClasificacionCVB" layoutX="416.0" layoutY="228.0" prefHeight="162.0" prefWidth="364.0" style="-fx-border-width: 5; -fx-border-color: linear-gradient(to top, #FF45CC, #4543CC);">
+         <columns>
+            <TableColumn fx:id="puestoClmCVB" prefWidth="56.0" text="Puesto" />
+            <TableColumn fx:id="nombreClmCVB" prefWidth="183.0" text="Nombre" />
+            <TableColumn fx:id="importeClmCVB" prefWidth="106.0" text="Importe" />
+         </columns>
+      </TableView>
+      <TableView id="tbl1800" fx:id="tblClasificacion1800B" layoutX="416.0" layoutY="724.0" prefHeight="87.0" prefWidth="364.0" style="-fx-border-width: 5; -fx-border-color: linear-gradient(to top, #FF45CC, #4543CC);">
+         <columns>
+            <TableColumn fx:id="puestoClm1800B" prefWidth="56.0" text="Puesto" />
+            <TableColumn fx:id="nombreClm1800B" prefWidth="183.0" text="Nombre" />
+            <TableColumn fx:id="importeClm1800B" prefWidth="105.0" text="Importe" />
+         </columns>
+      </TableView>
+      <Label layoutX="460.0" layoutY="186.0" text="Comunidad Valenciana" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="544.0" layoutY="682.0" text="SUB 1800" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView id="tbl1600" fx:id="tblClasificacion1600B" layoutX="416.0" layoutY="442.0" prefHeight="87.0" prefWidth="364.0" style="-fx-border-width: 5; -fx-border-color: linear-gradient(to top, #FF45CC, #4543CC);">
+         <columns>
+            <TableColumn fx:id="puestoClm1600B" prefWidth="56.0" text="Puesto" />
+            <TableColumn fx:id="nombreClm1600B" prefWidth="183.0" text="Nombre" />
+            <TableColumn fx:id="importeClm1600B" prefWidth="111.0" text="Importe" />
+         </columns>
+      </TableView>
+      <Label layoutX="536.0" layoutY="404.0" text="SUB 1600" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView id="tblAlojadosB" fx:id="tblClasificacionHotelB" layoutX="825.0" layoutY="226.0" prefHeight="518.0" prefWidth="364.0" style="-fx-border-width: 5; -fx-border-color: linear-gradient(to top, #FF45CC, #4543CC);">
+         <columns>
+            <TableColumn fx:id="puestoClmHB" prefWidth="56.0" text="Puesto" />
+            <TableColumn fx:id="nombreClmHB" prefWidth="183.0" text="Nombre" />
+            <TableColumn fx:id="importeClmHB" prefWidth="101.0" text="Importe" />
+         </columns>
+      </TableView>
+      <Label layoutX="947.0" layoutY="186.0" text="Alojados" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView id="tbl1400" fx:id="tblClasificacion1400B" layoutX="416.0" layoutY="581.0" prefHeight="87.0" prefWidth="364.0" style="-fx-border-width: 5; -fx-border-color: linear-gradient(to top, #FF45CC, #4543CC);">
+         <columns>
+            <TableColumn fx:id="puestoClm1400B" prefWidth="56.0" text="Puesto" />
+            <TableColumn fx:id="nombreClm1400B" prefWidth="183.0" text="Nombre" />
+            <TableColumn fx:id="importeClm1400B" prefWidth="106.0" text="Importe" />
+         </columns>
+      </TableView>
+      <Label layoutX="536.0" layoutY="545.0" text="SUB 1400" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnVolver" layoutX="63.0" layoutY="768.0" mnemonicParsing="false" onAction="#volverBVistaB" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: linear-gradient(to top, #BF7BFF, #FF52DA);" text="Volver" textFill="WHITE" />
+   </children>
+</AnchorPane>

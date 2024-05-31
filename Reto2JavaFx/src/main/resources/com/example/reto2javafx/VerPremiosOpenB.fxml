@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: linear-gradient(to bottom, #0E0713, #4543CC);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reto2javafx.VerPremiosController">
+   <children>
+      <Label layoutX="36.0" layoutY="36.0" prefHeight="43.0" prefWidth="222.0" text="𝐁𝐄𝐍𝐈𝐃𝐎𝐑𝐌" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="62.0" prefHeight="34.0" prefWidth="169.0" text="𝘾𝙃𝙀𝙎𝙎 𝙊𝙋𝙀𝙉" textFill="#41e4df">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="402.0" layoutY="94.0" text="Premios Open B" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="373.0" layoutX="148.0" layoutY="195.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="226.0" layoutY="203.0" text="General">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9734a3" height="26.0" layoutX="148.0" layoutY="232.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="172.0" layoutY="236.0" text="PUESTO" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="272.0" layoutY="236.0" text="IMPORTE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="148.0" layoutY="255.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="148.0" layoutY="307.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e2e2" height="26.0" layoutX="148.0" layoutY="281.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e2e2" height="26.0" layoutX="148.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="148.0" layoutY="359.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e2e2" height="26.0" layoutX="148.0" layoutY="385.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e2e2" height="26.0" layoutX="148.0" layoutY="437.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="148.0" layoutY="411.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="148.0" layoutY="463.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e2e2" height="26.0" layoutX="148.0" layoutY="489.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="148.0" layoutY="515.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e2e2" height="26.0" layoutX="148.0" layoutY="541.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="191.0" layoutY="259.0" text="1" />
+      <Label layoutX="191.0" layoutY="285.0" text="2" />
+      <Label layoutX="191.0" layoutY="311.0" text="3" />
+      <Label layoutX="191.0" layoutY="337.0" text="4" />
+      <Label layoutX="191.0" layoutY="363.0" text="5" />
+      <Label layoutX="191.0" layoutY="389.0" text="6" />
+      <Label layoutX="191.0" layoutY="415.0" text="7" />
+      <Label layoutX="191.0" layoutY="441.0" text="8" />
+      <Label layoutX="191.0" layoutY="467.0" text="9" />
+      <Label layoutX="188.0" layoutY="493.0" text="10" />
+      <Label layoutX="188.0" layoutY="519.0" text="11" />
+      <Label layoutX="188.0" layoutY="545.0" text="12" />
+      <Label layoutX="283.0" layoutY="260.0" text="2.300€" />
+      <Label layoutX="283.0" layoutY="285.0" text="1.200€" />
+      <Label layoutX="287.0" layoutY="311.0" text="650€" />
+      <Label layoutX="287.0" layoutY="337.0" text="550€" />
+      <Label layoutX="286.0" layoutY="363.0" text="500€" />
+      <Label layoutX="287.0" layoutY="389.0" text="400€" />
+      <Label layoutX="286.0" layoutY="415.0" text="300€" />
+      <Label layoutX="287.0" layoutY="441.0" text="250€" />
+      <Label layoutX="287.0" layoutY="467.0" text="200€" />
+      <Label layoutX="287.0" layoutY="493.0" text="150€" />
+      <Label layoutX="287.0" layoutY="519.0" text="100€" />
+      <Label layoutX="287.0" layoutY="545.0" text="100€" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="113.0" layoutX="401.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="474.0" layoutY="203.0" text="SUB 1800">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9734a3" height="26.0" layoutX="401.0" layoutY="232.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="401.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e2e2" height="26.0" layoutX="401.0" layoutY="281.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="451.0" layoutY="260.0" text="1" />
+      <Label layoutX="436.0" layoutY="236.0" text="PUESTO" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="524.0" layoutY="236.0" text="IMPORTE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="537.0" layoutY="259.0" text="150€" />
+      <Label layoutX="451.0" layoutY="285.0" text="2" />
+      <Label layoutX="536.0" layoutY="286.0" text="100€" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="107.0" layoutX="401.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="474.0" layoutY="337.0" text="SUB 1600">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9734a3" height="26.0" layoutX="401.0" layoutY="363.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="424.0" layoutY="367.0" text="PUESTO" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="522.0" layoutY="367.0" text="IMPORTE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="401.0" layoutY="389.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e2e2" height="26.0" layoutX="401.0" layoutY="415.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="443.0" layoutY="393.0" text="1" />
+      <Label layoutX="443.0" layoutY="419.0" text="2" />
+      <Label layoutX="535.0" layoutY="393.0" text="150€" />
+      <Label layoutX="537.0" layoutY="419.0" text="100€" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="66.0" layoutX="657.0" layoutY="410.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="717.0" layoutY="417.0" text="Alojados 125€">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9734a3" height="26.0" layoutX="657.0" layoutY="449.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="681.0" layoutY="452.0" text="1º - 20º" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="780.0" layoutY="452.0" text="2500€" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="66.0" layoutX="657.0" layoutY="502.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9734a3" height="26.0" layoutX="657.0" layoutY="541.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="712.0" layoutY="510.0" text="TOTAL TORNEO">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="681.0" layoutY="545.0" text="TOTAL" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="781.0" layoutY="545.0" text="11.450€" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="107.0" layoutX="401.0" layoutY="457.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9734a3" height="26.0" layoutX="401.0" layoutY="489.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="474.0" layoutY="467.0" text="SUB 1400">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="424.0" layoutY="493.0" text="PUESTO" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="521.0" layoutY="493.0" text="IMPORTE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="401.0" layoutY="515.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="439.0" layoutY="519.0" text="1" />
+      <Label layoutX="535.0" layoutY="519.0" text="150€" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e2e2" height="26.0" layoutX="401.0" layoutY="541.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="439.0" layoutY="545.0" text="2" />
+      <Label layoutX="535.0" layoutY="545.0" text="100€" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="190.0" layoutX="657.0" layoutY="194.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="711.0" layoutY="203.0" text="Com.Valenciana">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9734a3" height="26.0" layoutX="657.0" layoutY="232.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="657.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e2e2" height="26.0" layoutX="657.0" layoutY="281.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="657.0" layoutY="307.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e2e2" height="26.0" layoutX="657.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="657.0" layoutY="359.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="688.0" layoutY="236.0" text="PUESTO" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="771.0" layoutY="236.0" text="IMPORTE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="707.0" layoutY="260.0" text="1" />
+      <Label layoutX="707.0" layoutY="285.0" text="2" />
+      <Label layoutX="707.0" layoutY="311.0" text="3" />
+      <Label layoutX="707.0" layoutY="337.0" text="4" />
+      <Label layoutX="707.0" layoutY="363.0" text="5" />
+      <Label layoutX="783.0" layoutY="260.0" text="500€" />
+      <Label layoutX="783.0" layoutY="286.0" text="400€" />
+      <Label layoutX="783.0" layoutY="311.0" text="300€" />
+      <Label layoutX="783.0" layoutY="337.0" text="200€" />
+      <Label layoutX="783.0" layoutY="363.0" text="100€" />
+      <Button fx:id="btnVolver" layoutX="43.0" layoutY="729.0" mnemonicParsing="false" onAction="#volverBVistaB" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: linear-gradient(to top, #BF7BFF, #FF52DA);" text="Volver" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="773.0" prefWidth="514.0" style="-fx-background-color: linear-gradient(to bottom, #0E0713, #4543CC); -fx-border-color: linear-gradient(to top, #FF45CC, #4543CC); -fx-border-width: 10px;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reto2javafx.ModificarController">
+   <children>
+      <Label fx:id="labTitulo" layoutX="134.0" layoutY="70.0" text="Datos del jugador" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnModificar" layoutX="145.0" layoutY="663.0" mnemonicParsing="false" onAction="#modificarJugador" prefHeight="34.0" prefWidth="91.0" style="-fx-background-radius: 15; -fx-background-color: linear-gradient(to top, #45E8FF, #4564FF);" text="Modificar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLimpiar" layoutX="260.0" layoutY="663.0" mnemonicParsing="false" onAction="#limpiar" prefHeight="34.0" prefWidth="91.0" style="-fx-background-radius: 15; -fx-background-color: linear-gradient(to top, #45E8FF, #4564FF);" text="Limpiar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="224.0" layoutY="145.0" text="Nombre" textFill="WHITE" />
+      <Label layoutX="235.0" layoutY="221.0" text="FIDE" textFill="WHITE" />
+      <Label layoutX="226.0" layoutY="293.0" text="FIDE ID" textFill="WHITE" />
+      <Label layoutX="236.0" layoutY="365.0" text="Tipo" textFill="WHITE" />
+      <TextField fx:id="txtNombre" layoutX="144.0" layoutY="171.0" prefHeight="26.0" prefWidth="214.0" />
+      <TextField fx:id="txtFide" layoutX="145.0" layoutY="245.0" prefHeight="26.0" prefWidth="214.0" />
+      <TextField fx:id="txtFideID" layoutX="144.0" layoutY="317.0" prefHeight="26.0" prefWidth="214.0" />
+      <TextField fx:id="txtTipoTorneo" layoutX="144.0" layoutY="387.0" prefHeight="26.0" prefWidth="214.0" />
+      <Label layoutX="244.0" layoutY="434.0" text="H" textFill="WHITE" />
+      <Label layoutX="241.0" layoutY="503.0" text="CV" textFill="WHITE" />
+      <TextField fx:id="txtHotel" layoutX="143.0" layoutY="459.0" prefHeight="26.0" prefWidth="214.0" />
+      <TextField fx:id="txtCV" layoutX="143.0" layoutY="526.0" prefHeight="26.0" prefWidth="214.0" />
+      <Label layoutX="209.0" layoutY="571.0" text="Descalificado" textFill="WHITE" />
+      <TextField fx:id="txtDescalificado" layoutX="142.0" layoutY="596.0" prefHeight="26.0" prefWidth="214.0" />
+   </children>
+</AnchorPane>

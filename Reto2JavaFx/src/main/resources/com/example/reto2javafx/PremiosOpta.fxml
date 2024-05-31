@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="291.0" prefWidth="291.0" style="-fx-background-color: linear-gradient(to bottom, #0E0713, #4543CC);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reto2javafx.PremiosOptaController">
+    <ListView fx:id="listaPremioOpta" layoutX="39.0" layoutY="39.0" prefHeight="214.0" prefWidth="214.0" style="-fx-border-width: 5; -fx-border-color: linear-gradient(to top, #FF45CC, #4543CC);" />
+   <Label layoutX="43.0" layoutY="14.0" text="Premios:" textFill="WHITE">
+      <font>
+         <Font name="System Bold Italic" size="17.0" />
+      </font>
+   </Label>
+</AnchorPane>

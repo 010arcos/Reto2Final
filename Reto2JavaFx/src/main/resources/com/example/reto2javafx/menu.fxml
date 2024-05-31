@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: linear-gradient(to bottom, #0E0713, #4543CC);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reto2javafx.MenuController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000000a6" height="437.0" layoutX="348.0" layoutY="158.0" stroke="TRANSPARENT" strokeType="INSIDE" width="324.0" />
+        <Label layoutX="449.0" layoutY="305.0" text="𝐄𝐥𝐢𝐠𝐞 𝐮𝐧 𝐭𝐨𝐫𝐧𝐞𝐨" textFill="WHITE">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="422.0" layoutY="191.0" prefHeight="43.0" prefWidth="222.0" text="𝐁𝐄𝐍𝐈𝐃𝐎𝐑𝐌" textFill="WHITE">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Label>
+        <Label layoutX="423.0" layoutY="217.0" prefHeight="34.0" prefWidth="169.0" text="𝘾𝙃𝙀𝙎𝙎 𝙊𝙋𝙀𝙉" textFill="#41e4df">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnOpenB" layoutX="432.0" layoutY="426.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="157.0" style="-fx-background-color: linear-gradient(to bottom, #57C2AB, #257aa1); -fx-background-radius: 50;" text="OPEN B" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Button>
+        <Button fx:id="btnOpenA" layoutX="432.0" layoutY="357.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="157.0" style="-fx-background-color: linear-gradient(to bottom, #57C2AB, #257aa1); -fx-background-radius: 50;" text="OPEN A" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
